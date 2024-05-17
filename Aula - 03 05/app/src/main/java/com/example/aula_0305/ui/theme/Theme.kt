@@ -72,13 +72,13 @@ fun Aula0305Theme(
 }
 
 @Composable
-fun DebugButtonColors() = ButtonDefaults.buttonColors(containerColor = DarkBlue )
+fun debugButtonColors() = ButtonDefaults.buttonColors(containerColor = Green )
 
 @Composable
-fun WarningButtonColors() = ButtonDefaults.buttonColors(containerColor = DarkRed)
+fun warningButtonColors() = ButtonDefaults.buttonColors(containerColor = Orange)
 
 @Composable
-fun ErrorsButtonColors() = ButtonDefaults.buttonColors(containerColor = DarkBlue)
+fun errorsButtonColors() = ButtonDefaults.buttonColors(containerColor = Red)
 
 @Composable
-fun InfoButtonColors() = ButtonDefaults.buttonColors(containerColor = DarkOrange )
+fun infoButtonColors() = ButtonDefaults.buttonColors(containerColor = Blue )
